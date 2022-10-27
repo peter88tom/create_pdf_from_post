@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form method="POST" action="/">
+  {% csrf_token %}
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="first_name"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="last_name"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
